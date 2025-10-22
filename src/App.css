@@ -1,0 +1,48 @@
+nav {
+  height: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.heading h3 {
+  font-size: xx-large;
+}
+
+.nav-link ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 25vw;
+}
+
+.nav-link ul li {
+  font-size: large;
+  font-weight: bold;
+}
+
+.nav-link ul li:hover {
+  cursor: pointer;
+  color: rgb(75, 75, 75);
+  transition: 0.3s;
+}
+
+/* home */
+.home {
+  background-image: url('https://picsum.photos/1600/800');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(40%);
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 0;
+  color: white;
+}
