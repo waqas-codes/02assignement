@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Services = () => {
+const Services = (props) => {
   return (
-    <div>Services</div>
+    <div className='service'>
+        <h3>{props.title}</h3>
+        <p>{props.detail}</p>
+    </div>
   )
 }
 
