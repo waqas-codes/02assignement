@@ -4,6 +4,7 @@ import Header from './Header'
 import Home from './Home'
 import About from './About'
 import Services from './Services'
+import Footer from './Footer'
 const App = () => {
   return (
     <div>
@@ -24,6 +25,7 @@ const App = () => {
         detail="Boost your search rankings and attract more visitors."
         />
       </div>
+      <Footer />
     </div>
   )
 }
