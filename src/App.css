@@ -57,6 +57,7 @@ nav {
 .content {
   color:  white;
   z-index: 1;
+  text-align: center;
   display: flex;
   justify-self: center;
   align-items: center;
@@ -78,4 +79,27 @@ nav {
   padding: 7px 25px;
   border: none;
   border-radius: 5px;
+}
+
+.content button:hover{
+  background-color: rgb(216, 141, 0);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* about */
+.about {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about p{
+  font-size: large;
+  padding: 10px 10px;
+  text-align: center;
 }
